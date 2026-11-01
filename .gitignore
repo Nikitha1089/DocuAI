@@ -1,0 +1,13 @@
+# Environment files (keep secrets local)
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+backend/venv/
+
+# Python build/runtime artifacts
+__pycache__/
+*.py[cod]
